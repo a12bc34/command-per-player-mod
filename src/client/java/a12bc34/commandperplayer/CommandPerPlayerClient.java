@@ -15,7 +15,7 @@ public class CommandPerPlayerClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		openMenuKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-				"key.commandperplayer.open_menu",
+				"Open command per player menu",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_J,
 				KeyBinding.Category.MISC
